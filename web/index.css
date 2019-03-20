@@ -1,0 +1,37 @@
+
+.beauty {
+  color: green;
+  background: linear-gradient(#34f42f, red);
+
+}
+
+p {
+  color: red;
+  background-color: #000;
+}
+
+nice, .nice * {
+  border-radius: 5px;
+  border: solid 0.5px;
+  border-spacing: 10px;
+  padding: 2px;
+
+}
+
+thead{
+  background-color: #efefef;
+}
+
+#niceliste {
+  background-color: green;
+}
+
+img{
+  width: 300px;
+}
+
+.center{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
