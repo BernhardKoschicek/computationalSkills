@@ -19,7 +19,7 @@ nice, .nice * {
 }
 
 thead{
-  background-color: #efefef;
+    background: linear-gradient(to right, #34f42f, red);
 }
 
 #niceliste {
@@ -34,4 +34,20 @@ img{
   margin: auto;
   width: 50%;
   text-align: center;
+}
+
+#persons-table, #persons-table *{
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: solid
+}
+
+#redButton{
+    background-color: pink;
+}
+#greenButton{
+    background-color: lightgreen;
+}
+#blueButton{
+    background-color: lightblue;
 }
