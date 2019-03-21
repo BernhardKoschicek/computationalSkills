@@ -1,15 +1,17 @@
 body{
-     background-image: repeating-radial-gradient(#34f42f, green 30%, pink 40%);
+     background-image: repeating-radial-gradient(green 20%, #34f42f 40%, black);
+     height: 100%;
 }
 
-.beauty {
+/* .beauty {
   color: green;
   background: linear-gradient(#34f42f, red);
 
-}
+} */
 .first-style{
   background-image: repeating-radial-gradient(grey, blue 10%, pink 15%);
   margin: auto;
+  margin-bottom: 10px;
   width:  300px;
   padding: 10px;
 }
@@ -17,8 +19,7 @@ body{
 .menu{
   width: 100px;
   position: relative;
-border: 3px solid #73AD21;
-float: left;
+  float: left;
 }
 
 p {
@@ -80,6 +81,23 @@ h1{
 
 .style{
   margin: auto;
-  width:  1000px;
+  width:  60%;
   position: static;
+}
+
+button {
+  padding: 2px;
+  margin: 3px;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+
+button:hover {
+  background-color: green;
+}
+
+.menu-list {
+  list-style: none;
+  align-items: center;
 }
