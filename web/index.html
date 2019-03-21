@@ -1,20 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+  </head>
+  <body>
+  <h1>Witcher eating game :D</h1>
+    <script>
+        //var obst = "orange";
+        var obst = ["orange", "apfel", "banane"]
+        var char = ["Geralt", "Yennefer", "Triss"]
+        //document.write(obst + "<hr />")
+        //for (key in obst){
+        //  document.write(obst[key] + "; <br />")
+        //}
+        for (key in char){
+          var x = key
+          for (x in obst){
+            var rand = getRandomInt(3)
+            if ( rand == key){
+              document.write("Doesn't work <br/>")
+            }else{
+              document.write(char[key] + " eats " + obst[x] + " with " + char[rand] + "<br />")
+            }
+          }
+        }
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+      }
+    </script>
+  </body>
+</html>
+<!--
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <title>Page Title</title>
     <meta name="description" content="Page description">
     <meta name="author" content="Page author">
     <link rel="stylesheet" type="text/css" href="index.css" />
     <script type="text/javascript" src="main.js"></script>
+
   </head>
   <body>
+    <div class="first-style">
 <h1>Death to all the famous people in 2011! </h1>
 <p>A nice list of all the dead fuckers you deserved to die because the were corrupted and not good</p>
+</div>
+<div class="menu">
 <button type="button" value="actor" id="redButton">Actors</button>
 <button type="button" value="austrian" id="greenButton">Austrians</button>
 <button type="button" value="auto" id="greenButton">Auto*</button>
 <button type="reset" value="reset" id="blueButton">Reset</button>
+</div>
+<div class="style">
 <table id="persons-table" class="nice">
   <thead class="table-headings">
    <th>Birth</th>
@@ -23,6 +62,7 @@
    <th>Died</th>
   </thead>
  </table>
+</div>
 <!--  <div>
     <div>
       <h2>My First Heading</h2>
